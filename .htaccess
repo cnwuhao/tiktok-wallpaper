@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# 将 /tiktok-wallpapers 重定向到主页
+RewriteRule ^tiktok-wallpapers/?$ index.html [L]
+
+# 将 /download-wallpaper 重定向到主页
+RewriteRule ^download-wallpaper/?$ index.html [L] 
